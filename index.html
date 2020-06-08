@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+    <title>To do App</title>
+</head>
+<body>
+  <div class="container">
+    <h1>To Do list</h1>
+    <div class="card border-primary mb-3" style="max-width:100%;">
+    <div class="card-body">
+    <p>
+      <label for="new-task">Add Item</label><input id="new-task" type="text">
+      <button id="add-button" class="btn btn-primary" >Add</button>
+    </p>
+    </div>
+   </div>
+    
+    
+    <div class="card border-primary mb-3" style="max-width: 100%;">
+      <div class="card-header">To Do</div>
+      <div class="card-body">
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox" class="checkbox"><label>Go for a walk</label><input type="text" class='edit-text'>
+        <button id="edit-button" class="btn btn-outline-info">Edit</button><button id="delete-button" class="btn btn-outline-danger">Delete</button></li>
+        <li ><input type="checkbox" class="checkbox"><label>Pay Bills</label><input type="text" class='edit-text'>
+          <button id="edit-button" class="btn btn-outline-info">Edit</button><button id="delete-button"  class="btn btn-outline-danger">Delete</button></li>
+      <li><input type="checkbox" class="checkbox"><label>Go Shopping</label>
+        <input type="text"  value="Go Shopping"><button id="edit-button" class="btn btn-outline-info">Edit</button><button id="delete-button"  class="btn btn-outline-danger">Delete</button></li>
+
+    </ul>
+    </div>
+    </div>
+
+ 
+    <div class="card border-primary mb-3" style="max-width: 100%;">
+      <div class="card-header">Completed</div>
+      <div class="card-body">
+    <ul id="completed-tasks">
+      <li><input type="checkbox" class="checkbox"checked><label>See the Doctor</label><input type="text" class = 'edit-text'>
+        <button id="edit-button" class="btn btn-outline-info">Edit</button><button id="delete-button"  class="btn btn-outline-danger">Delete</button></li>
+    </ul>
+    </div>
+    </div>
+  </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="js/main.js"></script>
+         
+          
+    </body>
+</html>

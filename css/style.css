@@ -1,0 +1,64 @@
+.container {
+    width:600px!important;
+    margin-top:200px;
+    font-size: 20px;
+    margin-left:30%;
+ 
+}
+
+#new-task {
+  margin-left:20px;
+  width:300px;
+}
+
+button{
+float:right;
+}
+li * {
+	float: left;
+}
+
+li {
+	overflow: hidden;
+	padding: 20px 0;
+	
+}
+
+li > input[type="checkbox"] {
+	margin: 0 10px;
+	position: relative;
+	top: 15px;
+}
+
+li > label {
+	font-size: 18px;
+	line-height: 40px;
+	width: 237px;
+	padding: 0 0 0 11px;
+}
+
+li > input[type="text"] {
+	width: 226px;
+}
+
+
+
+#completed-tasks label {
+	text-decoration: line-through;
+	color: #888;
+}
+
+
+
+ul li input[type=text] {
+	display: none;
+}
+
+ul li.editMode input[type=text] {
+	display: block;
+}
+
+ul li.editMode label {
+	display: none;
+}
+
